@@ -1,0 +1,132 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgb(2, 58, 85);
+    color: #ffffff;
+    background-size: contain;
+    position: relative;
+}
+.logo{
+    width: 10%;
+    padding-left: 100px;
+}
+header{
+    background: url(banner2.jpg);
+    background-repeat: no-repeat;
+    background-size:contain;
+    position: relative;
+}
+.menu{
+text-align: center;
+}
+.menu a:hover{
+    font-size: 20px;
+    color:rgb(255, 0, 51);
+    text-shadow: 0 0 0.2em rgb(255, 151, 151);
+}
+.caixa {
+	position: relative;
+	width:100%;
+    height: 700px;
+	margin: 0 0 0 0;
+    background-color: transparent;
+}
+nav {
+	position: absolute;
+	top: 90px;
+	right: 170px;
+}
+
+nav li {
+	display: inline;
+	margin: 0 0 0 30px;
+}
+nav a {
+	text-transform: uppercase;
+	color: #ffffff;
+	font-weight: bold;
+	font-size: 20px;
+	text-decoration: none;
+}
+.principal {
+	padding: 3em 0;
+	background: rgb(10, 58, 85);
+	width: 1500px;
+	margin: 0 auto;
+    text-align: center;
+    background-size: contain;
+}
+.principal h2{
+    font-size: 50px;
+    position: relative;
+}
+.principal p {
+	margin: 3em 1em 1em;
+}
+
+.principal strong {
+	font-weight: bold;
+}
+
+.principal em {
+	font-style: italic;
+}
+footer {
+	text-align: center;
+	background-color: rgb(21, 21, 21);
+	padding: 40px 0;
+}
+footer img {
+    width: 9%;
+}
+.beneficios {
+	padding: 3em 0;
+}
+
+.conteudo-beneficios {
+	width: 640px;
+	margin: 0 auto;
+}
+
+.lista-beneficios {
+	width: 40%;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.itens {
+	line-height: 1.5;
+}
+
+.itens:first-child {
+	font-weight: bold;
+}
+
+.itens:before {
+	content: "🟊";
+}
+.imagem-beneficios {
+	width: 60%;
+	opacity: 1;
+	transition: 400ms;
+	box-shadow: 10px 10px 10px 0 #000720;
+    border-radius: 5px;
+}
+.titulo-principal {
+	text-align: center;
+	font-size: 2em;
+	margin: 0 0 1em;
+	clear: left;
+}
+.mapa {
+	padding: 3em 0;
+	background: linear-gradient(rgb(10, 58, 85),rgb(21,21,21));
+}
+.mapa-conteudo {
+	align-items: center;
+	margin: 0 auto;
+    width: 32%;
+}
+.mapa p {
+    text-align: center;
+    padding-bottom: 20px;
+}
