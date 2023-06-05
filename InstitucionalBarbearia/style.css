@@ -26,7 +26,7 @@ text-align: center;
 .caixa {
 	position: relative;
 	width:100%;
-    height: 700px;
+	height: 700px;
 	margin: 0 0 0 0;
     background-color: transparent;
 }
@@ -50,7 +50,7 @@ nav a {
 .principal {
 	padding: 3em 0;
 	background: rgb(10, 58, 85);
-	width: 1500px;
+	width: auto;
 	margin: 0 auto;
     text-align: center;
     background-size: contain;
@@ -97,6 +97,7 @@ footer img {
 	line-height: 1.5;
 }
 
+
 .itens:first-child {
 	font-weight: bold;
 }
@@ -120,13 +121,12 @@ footer img {
 .mapa {
 	padding: 3em 0;
 	background: linear-gradient(rgb(10, 58, 85),rgb(21,21,21));
-}
+}	
 .mapa-conteudo {
-	align-items: center;
+	width: 940px;
 	margin: 0 auto;
-    width: 32%;
 }
 .mapa p {
-    text-align: center;
-    padding-bottom: 20px;
+    margin: 0 0 2em;
+	text-align: center;
 }
